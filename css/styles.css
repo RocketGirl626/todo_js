@@ -1,0 +1,16 @@
+#show-list {
+  display: none;
+}
+
+#show-task {
+  display: none;
+}
+
+.list, .task {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.list, .task:hover {
+  text-decoration: underline;
+}

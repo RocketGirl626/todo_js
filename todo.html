@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+   <div class="container">
+     <h1>To Do List</h1>
+
+     <div class="row">
+       <div class="col-md-6">
+         <h2>Add List:</h2>
+         <form id="new-list">
+           <div class="form-group">
+             <label for="new-list-name">List Name</label>
+             <input type="text" class="form-control" id="new-list-name">
+           </div>
+           <div id="new-tasks">
+             <div class="new-tasks">
+               <div class="form-group">
+                 <label for="new-task">Task</label>
+                 <input type="text" class="form-control new-task">
+               </div>
+               <div class="form-group">
+                 <label for="new-due">Due Date</label>
+                 <input type="text" class="form-control new-due">
+               </div>
+             </div>
+           </div>
+           <span class="btn btn-primary" id="add-task">Another Task</span>
+           <button type="submit" class="btn">Add</button>
+         </form>
+         <h2>Lists:</h2>
+         <ul id="lists">
+
+         </ul>
+       </div>
+     </div>
+     <div class="col-md-6">
+       <div id="show-list">
+         <h2></h2>
+
+         <p>Tasks:</p>
+         <ul id="tasks">
+         </ul>
+       </div>
+     </div>
+     <div class="col-md-6">
+       <div id="show-list">
+         <h2></h2>
+
+         <div class="col-md-6">
+         <ul id="show-task">
+           <p>Complete:</p>
+         </ul>
+       </div>
+     </div>
+   </div>
+  </body>
+</html>
